@@ -1,0 +1,6 @@
+<div>
+  <h6>Welcome to forbidden Route - protected by authguard</h6>
+
+  Is Authenticated: {{  authenticated$ | async }}
+  <pre>{{ userData$ | async | json }}</pre>
+</div>
